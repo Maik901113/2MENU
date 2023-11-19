@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+}
+.menuBarra{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(4 );
+    cursor: pointer;
+
+}  
+.menuBarra span{
+    display: block;
+    height: 2px;
+    background-color: black;
+    margin-top : 6px;
+    transition: all 600ms;
+    transform-origin: 0px 100%;
+    background-color: rgb(34, 34, 139);
+    box-shadow:  0px 0px 1px 2px rgb(237, 36, 5);
+}
+.fila1Animacion{
+    transform: rotate(45deg)translate(-2px,1px);
+}
+.fila3Animacion{
+    transform: rotate(-45deg)translate(-4px,2px);
+}
+.fila2Animacion{
+    opacity: 0;
+    margin-left: -35px;
+}
